@@ -12,7 +12,7 @@
 		{
 			"style":	null,
 			"props":	{
-				"id":	"Label3",
+				"id":	"Label16",
 				"text":	{
 					"value":	null,
 					"has_exp":	true
@@ -62,7 +62,7 @@
 		{
 			"style":	null,
 			"props":	{
-				"id":	"Label4",
+				"id":	"Label17",
 				"text":	{
 					"value":	null,
 					"has_exp":	true
@@ -97,6 +97,106 @@
 				"x":	23,
 				"y":	46,
 				"width":	83,
+				"height":	20
+			},
+			"hint":	{
+				"text":	{
+					"value":	"",
+					"has_exp":	true
+				},
+				"hint_color":	null
+			},
+			"controlType":	"T",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"Label18",
+				"text":	{
+					"value":	null,
+					"has_exp":	true
+				},
+				"common_line_id":	"line79"
+			},
+			"coordinates":	{
+				"x":	6,
+				"y":	79,
+				"width":	11,
+				"height":	15
+			},
+			"hint":	null,
+			"controlType":	"L",
+			"children":	null
+		},
+		{
+			"style":	{
+				"alignment":	{
+					"horizontal":	1,
+					"vertical":	null
+				}
+			},
+			"props":	{
+				"id":	"c",
+				"tab_order":	0,
+				"pattern":	"^MagicSoftware.Studio.Program.WebClientGenerator.ValueExp$",
+				"attribute":	"A",
+				"common_line_id":	"line79"
+			},
+			"coordinates":	{
+				"x":	23,
+				"y":	79,
+				"width":	76,
+				"height":	20
+			},
+			"hint":	{
+				"text":	{
+					"value":	"",
+					"has_exp":	true
+				},
+				"hint_color":	null
+			},
+			"controlType":	"T",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"Label19",
+				"text":	{
+					"value":	null,
+					"has_exp":	true
+				},
+				"common_line_id":	"line112"
+			},
+			"coordinates":	{
+				"x":	6,
+				"y":	112,
+				"width":	11,
+				"height":	15
+			},
+			"hint":	null,
+			"controlType":	"L",
+			"children":	null
+		},
+		{
+			"style":	{
+				"alignment":	{
+					"horizontal":	1,
+					"vertical":	null
+				}
+			},
+			"props":	{
+				"id":	"d",
+				"tab_order":	0,
+				"pattern":	"^MagicSoftware.Studio.Program.WebClientGenerator.ValueExp$",
+				"attribute":	"A",
+				"common_line_id":	"line112"
+			},
+			"coordinates":	{
+				"x":	23,
+				"y":	112,
+				"width":	90,
 				"height":	20
 			},
 			"hint":	{

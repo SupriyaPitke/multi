@@ -9,10 +9,10 @@
     >
         <div style="display: flex; flex-direction: row">
             <label
-                magic="Label345"
-                class="Label3Props"
+                magic="Label16"
+                class="Label16Props"
             >
-                {{mg.getText('Label3')}}
+                {{mg.getText('Label16')}}
                 </label>
                 <mat-form-field class="aProps">
                     <div>
@@ -33,10 +33,10 @@ screenFormGroup.get('a').hasError('pattern')
         </div>
         <div style="display: flex; flex-direction: row">
             <label
-                magic="Label4"
-                class="Label4Props"
+                magic="Label17"
+                class="Label17Props"
             >
-                {{mg.getText('Label4')}}
+                {{mg.getText('Label17')}}
                 </label>
                 <mat-form-field class="bProps">
                     <div>
@@ -51,6 +51,54 @@ screenFormGroup.get('a').hasError('pattern')
 screenFormGroup.get('b').hasError('pattern')
 )">
                                 <p>{{ mg.getErrMsg('b') }}</p>
+                            </div>
+                    </div>
+                </mat-form-field>
+        </div>
+        <div style="display: flex; flex-direction: row">
+            <label
+                magic="Label18"
+                class="Label18Props"
+            >
+                {{mg.getText('Label18')}}
+                </label>
+                <mat-form-field class="cProps">
+                    <div>
+                        <input
+                            matInput
+                            magic="c"
+                            formControlName="c"
+                            [placeholder]="mg.getPlaceholder('c')"
+                            pattern="^MagicSoftware.Studio.Program.WebClientGenerator.ValueExp$"
+                        >
+                            <div *ngIf="(screenFormGroup.get('c').dirty) && (
+screenFormGroup.get('c').hasError('pattern')
+)">
+                                <p>{{ mg.getErrMsg('c') }}</p>
+                            </div>
+                    </div>
+                </mat-form-field>
+        </div>
+        <div style="display: flex; flex-direction: row">
+            <label
+                magic="Label19"
+                class="Label19Props"
+            >
+                {{mg.getText('Label19')}}
+                </label>
+                <mat-form-field class="dProps">
+                    <div>
+                        <input
+                            matInput
+                            magic="d"
+                            formControlName="d"
+                            [placeholder]="mg.getPlaceholder('d')"
+                            pattern="^MagicSoftware.Studio.Program.WebClientGenerator.ValueExp$"
+                        >
+                            <div *ngIf="(screenFormGroup.get('d').dirty) && (
+screenFormGroup.get('d').hasError('pattern')
+)">
+                                <p>{{ mg.getErrMsg('d') }}</p>
                             </div>
                     </div>
                 </mat-form-field>
