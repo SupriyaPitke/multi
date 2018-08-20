@@ -1,0 +1,113 @@
+{
+	"style":	null,
+	"props":	{
+		"id":	"Test1",
+		"component_path":	"Test1/",
+		"component_uniquename":	"Test1_Test1"
+	},
+	"coordinates":	null,
+	"hint":	null,
+	"controlType":	null,
+	"children":	[
+		{
+			"style":	null,
+			"props":	{
+				"id":	"Label3",
+				"text":	{
+					"value":	null,
+					"has_exp":	true
+				},
+				"common_line_id":	"line13"
+			},
+			"coordinates":	{
+				"x":	6,
+				"y":	13,
+				"width":	11,
+				"height":	15
+			},
+			"hint":	null,
+			"controlType":	"L",
+			"children":	null
+		},
+		{
+			"style":	{
+				"alignment":	{
+					"horizontal":	1,
+					"vertical":	null
+				}
+			},
+			"props":	{
+				"id":	"a",
+				"tab_order":	0,
+				"pattern":	"^MagicSoftware.Studio.Program.WebClientGenerator.ValueExp$",
+				"attribute":	"A",
+				"common_line_id":	"line13"
+			},
+			"coordinates":	{
+				"x":	23,
+				"y":	13,
+				"width":	83,
+				"height":	20
+			},
+			"hint":	{
+				"text":	{
+					"value":	"",
+					"has_exp":	true
+				},
+				"hint_color":	null
+			},
+			"controlType":	"T",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"Label4",
+				"text":	{
+					"value":	null,
+					"has_exp":	true
+				},
+				"common_line_id":	"line46"
+			},
+			"coordinates":	{
+				"x":	6,
+				"y":	46,
+				"width":	11,
+				"height":	15
+			},
+			"hint":	null,
+			"controlType":	"L",
+			"children":	null
+		},
+		{
+			"style":	{
+				"alignment":	{
+					"horizontal":	1,
+					"vertical":	null
+				}
+			},
+			"props":	{
+				"id":	"b",
+				"tab_order":	0,
+				"pattern":	"^MagicSoftware.Studio.Program.WebClientGenerator.ValueExp$",
+				"attribute":	"A",
+				"common_line_id":	"line46"
+			},
+			"coordinates":	{
+				"x":	23,
+				"y":	46,
+				"width":	83,
+				"height":	20
+			},
+			"hint":	{
+				"text":	{
+					"value":	"",
+					"has_exp":	true
+				},
+				"hint_color":	null
+			},
+			"controlType":	"T",
+			"children":	null
+		}
+	]
+}
